@@ -1,0 +1,19 @@
+odule Module1
+
+    Sub Main()
+        Dim A1, A2 As Integer
+
+        A1 = 4
+
+        A2 = 3
+
+        If A1 > A2 Then
+            Console.WriteLine(Math.Pow(A1, A2))
+        Else
+            Console.WriteLine(Math.Pow(A2, A1))
+        End If
+
+        Console.ReadLine()
+    End Sub
+
+End Module
